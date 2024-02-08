@@ -1,0 +1,8 @@
+packages:
+- package: dbt-labs/dbt_utils
+  version: 1.1.1
+- package: Datavault-UK/automate_dv
+  version: 0.10.1
+- package: brooklyn-data/dbt_artifacts
+  version: 2.6.2
+sha1_hash: 7e923b87829883339fb6f38adbafba6f8bc13441
