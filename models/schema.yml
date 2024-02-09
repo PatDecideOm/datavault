@@ -2,10 +2,11 @@ version: 2
 
 sources:
   - name: tpch_sample
-    database: DECIDEOM_LYON
-    schema: RAW_SF10
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF10
     tables:
       - name: CUSTOMER
       - name: SUPPLIER
       - name: NATION
       - name: REGION
+      - name: PART
