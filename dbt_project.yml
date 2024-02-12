@@ -54,6 +54,9 @@ models:
       sats:
         +tags:
           - 'satellite'
+      pits:
+        +tags:
+          - 'pit'
 
 on-run-end:
   - "{{ dbt_artifacts.upload_results(results) }}"
